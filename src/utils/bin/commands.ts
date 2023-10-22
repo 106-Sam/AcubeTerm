@@ -138,20 +138,45 @@ export const sudo = async (args?: string[]): Promise<string> => {
   return `Permission denied: with little power comes... no responsibility? `;
 };
 
+export const osint1 = async (args?: string[]): Promise<string> => {
+  window.open('https://samifriends.weebly.com/uploads/4/3/7/4/43746977/mountain.jpg', '_blank');
+  return `Mountain hunt...
+  Can you find the coordinates from where the picture has been clicked...
+  flag format: samOSINT1{XX.xxxxxxx,X.xxxxxxx}
+  for submission type 'giveaway'.
+  `;
+};
+
+export const osint2 = async (args?: string[]): Promise<string> => {
+  window.open('https://samifriends.weebly.com/uploads/4/3/7/4/43746977/her.png', '_blank');
+  return `Find my friend...
+  My russian friend travels alot, recently she sent me a picture of her enjoyin' food...after that she went missing.
+  Will you help me find the exact coordinates, of where she was spotted clicking the picture.  
+  flag format: samOSINT2{XX.xxxxxxx,XX.xxxxxxx}
+  for submission type 'giveaway'.
+  `;
+};
+
+
+export const giveaway = async (args?: string[]): Promise<string> => {
+  return `Submit flag to @106_Sam or @v31l_0x1 on Instagram for participating in the giveaway`;
+};
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-█████        ███                       ███████████                                   
-░░███        ░░░                       ░█░░░███░░░█                                   
- ░███        ████  █████ █████  ██████ ░   ░███  ░   ██████  ████████  █████████████  
- ░███       ░░███ ░░███ ░░███  ███░░███    ░███     ███░░███░░███░░███░░███░░███░░███ 
- ░███        ░███  ░███  ░███ ░███████     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ 
- ░███      █ ░███  ░░███ ███  ░███░░░      ░███    ░███░░░   ░███      ░███ ░███ ░███ 
- ███████████ █████  ░░█████   ░░██████     █████   ░░██████  █████     █████░███ █████
-░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ 
+  
+ █████╗  ██████╗██╗   ██╗██████╗ ███████╗███████╗███████╗ ██████╗
+██╔══██╗██╔════╝██║   ██║██╔══██╗██╔════╝██╔════╝██╔════╝██╔════╝
+███████║██║     ██║   ██║██████╔╝█████╗  ███████╗█████╗  ██║     
+██╔══██║██║     ██║   ██║██╔══██╗██╔══╝  ╚════██║██╔══╝  ██║     
+██║  ██║╚██████╗╚██████╔╝██████╔╝███████╗███████║███████╗╚██████╗
+╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝╚══════╝╚══════╝ ╚═════╝
+                                                                 
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
-Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
+Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> to visit website.
+Type 'osint1' or 'osint2' for giveaway challenge files and description.
+Type 'giveaway' for knowing whom to submit your flags. 
 `;
 };
