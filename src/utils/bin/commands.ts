@@ -144,6 +144,7 @@ export const osint1 = async (args?: string[]): Promise<string> => {
   Can you find the coordinates from where the picture has been clicked...
   flag format: samOSINT1{XX.xxxxxxx,X.xxxxxxx}
   for submission type 'giveaway'.
+  chall_file : <a href="https://samifriends.weebly.com/uploads/4/3/7/4/43746977/mountain.jpg" target="_blank">download</a> 
   `;
 };
 
@@ -154,6 +155,7 @@ export const osint2 = async (args?: string[]): Promise<string> => {
   Will you help me find the exact coordinates, of where she was spotted clicking the picture.  
   flag format: samOSINT2{XX.xxxxxxx,XX.xxxxxxx}
   for submission type 'giveaway'.
+  chall_file :  <a href="https://samifriends.weebly.com/uploads/4/3/7/4/43746977/her.png" target="_blank">download</a> 
   `;
 };
 
