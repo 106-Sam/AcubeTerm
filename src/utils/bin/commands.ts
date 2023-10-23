@@ -144,7 +144,7 @@ export const osint1 = async (args?: string[]): Promise<string> => {
   Can you find the coordinates from where the picture has been clicked...
   flag format: samOSINT1{XX.xxxxxxx,X.xxxxxxx}
   for submission type 'giveaway'.
-  chall_file : <a href="https://samifriends.weebly.com/uploads/4/3/7/4/43746977/mountain.jpg" target="_blank">download</a> 
+  chall_file : <u><a href="https://samifriends.weebly.com/uploads/4/3/7/4/43746977/mountain.jpg" target="_blank">click to download</a></u> 
   `;
 };
 
@@ -155,13 +155,13 @@ export const osint2 = async (args?: string[]): Promise<string> => {
   Will you help me find the exact coordinates, of where she was spotted clicking the picture.  
   flag format: samOSINT2{XX.xxxxxxx,XX.xxxxxxx}
   for submission type 'giveaway'.
-  chall_file :  <a href="https://samifriends.weebly.com/uploads/4/3/7/4/43746977/her.png" target="_blank">download</a> 
+  chall_file :  <u><a href="https://samifriends.weebly.com/uploads/4/3/7/4/43746977/her.png" target="_blank">click to download</a></u> 
   `;
 };
 
 
 export const giveaway = async (args?: string[]): Promise<string> => {
-  return `Submit flag to @106_Sam or @v31l_0x1 on Instagram for participating in the giveaway`;
+  return `Submit flag to <u><a href="https://www.instagram.com/106_Sam/" target="_blank">@106_Sam</a></u> or <u><a href="https://www.instagram.com/v31l_0x1/" target="_blank">@v31l_0x1</a></u> on Instagram for participating in the giveaway`;
 };
 // Banner
 export const banner = (args?: string[]): string => {
