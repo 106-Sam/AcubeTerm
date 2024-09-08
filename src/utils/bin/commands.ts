@@ -161,7 +161,7 @@ export const osint2 = async (args?: string[]): Promise<string> => {
 
 
 export const giveaway = async (args?: string[]): Promise<string> => {
-  return `Submit flag to <u><a href="https://www.instagram.com/106_Sam/" target="_blank">@106_Sam</a></u> or <u><a href="https://www.instagram.com/v31l_0x1/" target="_blank">@v31l_0x1</a></u> on Instagram for participating in the giveaway`;
+  return `Submit flag to <u><a href="https://www.instagram.com/106_Sam/" target="_blank">@106_Sam</a></u> on Instagram for participating in the giveaway. Flag format samCTF{.....32bit string.....}`;
 };
 // Banner
 export const banner = (args?: string[]): string => {
