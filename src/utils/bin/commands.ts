@@ -161,7 +161,7 @@ export const osint2 = async (args?: string[]): Promise<string> => {
 
 export const samctf24 = async (args?: string[]): Promise<string> => {
   window.open('https://pastebin.com/8c8cM1Re', '_blank');
-  return ` To begin the samCTF'24 challenge ⏳ -  <u><a href="https://pastebin.com/8c8cM1Re" target="_blank">click here</a></u> `;
+  return `To begin the samCTF'24 challenge ⏳ -  <u><a href="https://pastebin.com/8c8cM1Re" target="_blank">click here</a></u>`;
 };
 
 export const giveaway = async (args?: string[]): Promise<string> => {
@@ -185,7 +185,7 @@ Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> to visit website.
 Type 'osint1' or 'osint2' for sam'23 giveaway challenge files and description.
-Type "samCTF24" for samCTF'24 challenge links.
+Type "samctf24" for samCTF'24 challenge links.
 Type 'giveaway' for knowing whom to submit your flags. 
 `;
 };
