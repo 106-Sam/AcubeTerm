@@ -159,7 +159,8 @@ export const osint2 = async (args?: string[]): Promise<string> => {
   `;
 };
 
-export const samCTF24 = async (args?: string[]): Promise<string> => {
+export const samctf24 = async (args?: string[]): Promise<string> => {
+  window.open('https://pastebin.com/8c8cM1Re', '_blank');
   return ` To begin the samCTF'24 challenge ⏳ -  <u><a href="https://pastebin.com/8c8cM1Re" target="_blank">click here</a></u> `;
 };
 
